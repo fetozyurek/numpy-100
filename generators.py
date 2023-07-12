@@ -32,8 +32,8 @@ def dict_to_ktx(input_dict, output_file, keystarter='<'):
             f.write(f'{val}\n\n')
 
 
-HEADERS = ktx_to_dict(os.path.join('source', 'headers.ktx'))
-QHA = ktx_to_dict(os.path.join('source', 'exercises100.ktx'))
+HEADERS = ktx_to_dict(os.path.join('/content/numpy-100/source', 'headers.ktx'))
+QHA = ktx_to_dict(os.path.join('/content/numpy-100/source', 'exercises100.ktx'))
 
 
 def create_jupyter_notebook(destination_filename='100_Numpy_exercises.ipynb'):
